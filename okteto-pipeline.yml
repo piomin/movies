@@ -1,10 +1,54 @@
 icon: https://apps.okteto.com/movies/icon.png
 deploy:
   - helm upgrade --install movies chart
-  - okteto push -f api/okteto.yml --no-cache
-  - okteto push -f frontend/okteto.yml --no-cache
-  - okteto push -f api/okteto.yml --no-cache
-  - okteto push -f frontend/okteto.yml --no-cache
+  - sleep 5
+  - echo pepi
+  - sleep 5
+  - echo pepi
+  - sleep 5
+  - echo pepi
+  - sleep 5
+  - echo pepi
+  - sleep 5
+  - echo pepi
+  - sleep 5
+  - echo pepi
+  - sleep 5
+  - echo pepi
+  - sleep 5
+  - echo pepi
+  - sleep 5
+  - echo pepi
+  - sleep 5
+  - echo pepi
+  - sleep 5
+  - echo pepi
+  - sleep 5
+  - echo pepi
+  - sleep 5
+  - echo pepi
+  - sleep 5
+  - echo pepi
+  - sleep 5
+  - echo pepi
+  - sleep 5
+  - echo pepi
+  - sleep 5
+  - echo pepi
+  - sleep 5
+  - echo pepi
+  - sleep 5
+  - echo pepi
+  - sleep 5
+  - echo pepi
+  - sleep 5
+  - echo pepi
+  - sleep 5
+  - echo pepi
+  - sleep 5
+  - echo pepi
+  - sleep 5
+  - echo pepi
 devs:
   - api/okteto.yml
   - frontend/okteto.yml
