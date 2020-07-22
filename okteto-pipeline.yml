@@ -1,5 +1,7 @@
 icon: https://apps.okteto.com/movies/icon.png
 deploy:
+  - okteto build -t okteto.dev/api:dev api
+  - okteto build -t okteto.dev/frontend:dev frontend
   - helm upgrade --install movies chart
 devs:
   - api/okteto.yml
